@@ -30,7 +30,7 @@ const Projects = () => {
 
   return (
     <section id="projects" className="section container">
-      <h2 className="section-title"><span>01.</span> Some Things I've Built</h2>
+      <h2 className="section-title"><span>01.</span> Featured Projects</h2>
       <div style={styles.grid}>
         {projects.map((project, i) => (
           <div key={i} style={styles.card} className="project-card">
