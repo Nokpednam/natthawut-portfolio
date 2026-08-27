@@ -22,7 +22,7 @@ const Skills = () => {
 
   return (
     <section id="skills" className="section container">
-      <h2 className="section-title"><span>02.</span> Skills & Expertise</h2>
+      <h2 className="section-title"><span>02.</span> Skills & Tools</h2>
       <div style={styles.grid}>
         {skillCategories.map((category, i) => (
           <div key={i} style={styles.category}>

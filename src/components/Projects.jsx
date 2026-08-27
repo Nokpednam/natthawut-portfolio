@@ -12,7 +12,7 @@ const Projects = () => {
     },
     {
       title: "MeQ — Basketball Court Queue & Match Management System",
-      date: "2026",
+      date: "Aug 2026 – Present",
       description: "Basketball court queue and match management application for 3x3 and 5x5 teams, including court queues, check-in, match results, and player statistics. LINE Login is implemented, while LINE Messaging notifications for queue and match events are currently in development.",
       tech: ["Next.js", "TypeScript", "Supabase", "PostgreSQL", "RLS", "PostgreSQL RPC", "GitHub Actions", "Vercel"],
       github: "https://github.com/Nokpednam/MeQ-web-app",
@@ -30,7 +30,7 @@ const Projects = () => {
 
   return (
     <section id="projects" className="section container">
-      <h2 className="section-title"><span>01.</span> Some Things I've Built</h2>
+      <h2 className="section-title"><span>01.</span> Featured Projects</h2>
       <div style={styles.grid}>
         {projects.map((project, i) => (
           <div key={i} style={styles.card} className="project-card">
