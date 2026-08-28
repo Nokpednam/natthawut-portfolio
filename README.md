@@ -19,3 +19,6 @@ npm run build
 
 Deployment:
 Vercel
+
+Live site:
+https://natthawut-portfolio.vercel.app/
